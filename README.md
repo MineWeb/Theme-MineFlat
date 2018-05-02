@@ -2,4 +2,7 @@
 
 MineFlat theme of MineWeb CMS
 
-Original developer : narty#8449 on Discord
+Contact original developer : 
+
+- Website : http://narty.fr/
+- Discord : narty#8449
