@@ -6,13 +6,13 @@
 	        	<div class="ribbon">
 	        		<div class="ribbon-stitches-top"></div>
 	        		<div class="ribbon-content"><p>
-	        				<?php if($EyPlugin->isInstalled('eywek.shop.1')) { ?>
+	        				<?php if($EyPlugin->isInstalled('eywek.shop')) { ?>
 	        					<span class="pull-left hidden-xs"><span class="info"><span class="money"><?= $user['money'] ?></span><?= ($user['money'] == 1) ?  ' '.$Configuration->getMoneyName(false) : ' '.$Configuration->getMoneyName(); ?></span></span>
 	        				<?php } ?>
 							<span class="text-center pseudo-user"><?= $user['pseudo'] ?></span>
-							<?php if($EyPlugin->isInstalled('eywek.vote.3')) { ?>
+							<?php if($EyPlugin->isInstalled('eywek.vote')) { ?>
 		        				<span class="pull-right hidden-xs"><span class="info"><?= $user['vote'] ?> <?= $Lang->get('VOTE__TITLE_ACTION') ?></span></span>
-		        			<?php } elseif($EyPlugin->isInstalled('eywek.shop.1')) { ?>
+		        			<?php } elseif($EyPlugin->isInstalled('eywek.shop')) { ?>
 								<a href="<?= $this->Html->url(array('controller' => 'shop', 'action' => 'index')) ?>" class="btn btn-primary pull-right"><?= $Lang->get('SHOP__TITLE') ?></a>
 		        			<?php } ?>
 	        		</p></div>
