@@ -1752,3 +1752,11 @@ footer p {
 .panel-title > a {
 	font-family:"Lato";
 }
+
+/*
+	Forum style
+ */
+
+.container.marge{
+	margin-top: 40px;
+}
