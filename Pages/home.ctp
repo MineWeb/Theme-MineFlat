@@ -61,6 +61,9 @@
             <li class="col-md-4 animated fadeInUp">
                 <div class="box">
                     <h2><?= cut($v['News']['title'], 22) ?></h2>
+                    <?php if(!empty($v['News']['img'])): ?>
+                        <img src="<?= $v['News']['img']; ?>" class="img-responsive" />
+                    <?php endif; ?>
                     <div><p><?= $this->Text->truncate($v['News']['content'], 177, array('ellipsis' => '...', 'html' => true)) ?></p></div>
                     <div class="border"></div>
                     <div class="btn-like">
