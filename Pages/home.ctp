@@ -47,7 +47,7 @@
   <div class="container">
     <div class="text-center">
         <div class="desc-info">
-          <?php if($server_infos['getPlayerCount'] == NULL) { echo '<i class="fa fa-server icon-info"></i> Le serveur éteint'; } else { echo '<i class="fa fa-users icon-info"></i> '.$server_infos['getPlayerCount'].' joueurs connectés'; } ?>
+          <?php if(!is_numeric($server_infos['GET_PLAYER_COUNT'])) { echo '<i class="fa fa-server icon-info"></i> Le serveur éteint'; } else { echo '<i class="fa fa-users icon-info"></i> '.$server_infos['GET_PLAYER_COUNT'].' joueurs connectés'; } ?>
         </div>
     </div>
     

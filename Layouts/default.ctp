@@ -16,7 +16,6 @@
     <?= $this->Html->css('animate.css') ?>
     <?= $this->Html->css('font-awesome.min.css') ?>
     <?= $this->Html->css('mineflat') ?>
-	<?= $this->Html->css('../font-awesome-4.1.0/css/font-awesome.min.css') ?>
     <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Open+Sans:300,400,600,700,800" rel="stylesheet">
 	<?= $this->Html->script('jquery-1.11.0.js') ?>
     <?= $this->Html->script('easy_paginate.js') ?>
