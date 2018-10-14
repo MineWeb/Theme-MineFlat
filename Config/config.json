@@ -7,7 +7,7 @@
    "configurations":{
       "slider":"true",
       "navbar":"navbar2",
-      "favicon_url":"",
+      "favicon_url":"http://mineweb.org/assets/favicon.png",
       "logo":false
    },
    "supported":{},
