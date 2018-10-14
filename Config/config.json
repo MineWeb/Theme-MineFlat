@@ -2,7 +2,7 @@
    "name":"MineFlat",
    "slug":"Mineflat",
    "author":"Narty",
-   "version":"1.0.7",
+   "version":"1.0.8",
    "apiID":-1,
    "configurations":{
       "slider":"true",
